@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --primary-color: #c81d25;
+    --secondary-color: #3d3d3d;
+    --tertiary-color: #121212;
+    --quaternary-color: #ffff;
+    --primary-text-color: #ffff;
+    --secondary-text-color: #121212;
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+    /* Inputs */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 14px 20px;
+    border: none;
+    background-color: var(--tertiary-color);
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+
+    /* Headings */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
